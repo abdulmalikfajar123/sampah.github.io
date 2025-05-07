@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pembersih Sampah Laut</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #b3ecff, #e6f2f2);
+      animation: fadeIn 1.5s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    header {
+      background-color: #0099cc;
+      color: white;
+      padding: 2em;
+      text-align: center;
+      background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    header h1 {
+      font-size: 2.5em;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+    header p {
+      font-size: 1.2em;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    }
+
+    .team-name {
+      font-size: 1.5em;
+      color: #fff;
+      font-weight: bold;
+      margin-top: 1em;
+      text-shadow: 2px 2px 0 #000, 4px 4px 5px rgba(0,0,0,0.3);
+      transform: scale(1.05);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      animation: bounce 2s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    section {
+      padding: 2em;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5em;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .alat {
+      background: white;
+      padding: 1.5em;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .alat:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+    .alat h2 {
+      color: #006699;
+    }
+    .alat ul {
+      padding-left: 1.2em;
+    }
+
+    footer {
+      background-color: #007799;
+      color: white;
+      text-align: center;
+      padding: 1.5em;
+      margin-top: 2em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pembersih Sampah Laut Cerdas</h1>
+    <p>Untuk Laut yang Lebih Bersih dan Sehat</p>
+    <div class="team-name">Kelompok: Abdul Malik Fajar, Andra, Revanya</div>
+  </header>
+  
+  <section>
+    <div class="alat">
+      <h2>Kenapa Penting Membuang Sampah di Tempatnya?</h2>
+      <p>Membuang sampah sembarangan, terutama ke laut, mencemari lingkungan, membunuh biota laut, dan merusak ekosistem. Edukasi dan kesadaran sangat penting untuk menjaga laut tetap bersih dan lestari.</p>
+    </div>
+
+    <div class="alat">
+      <h2>Fungsi Alat Pembersih Sampah Laut</h2>
+      <ul>
+        <li>Mendeteksi dan mengumpulkan sampah secara otomatis dari permukaan laut.</li>
+        <li>Memfilter air laut dari polusi sampah menggunakan sistem penyaringan berlapis.</li>
+        <li>Menghasilkan air bersih hasil penyaringan tanpa bahan berbahaya.</li>
+        <li>Dikendalikan melalui aplikasi untuk pemantauan dan pengoperasian jarak jauh.</li>
+        <li>Meningkatkan kesadaran masyarakat dengan notifikasi dan data tentang kondisi laut setempat.</li>
+      </ul>
+    </div>
+
+    <div class="alat">
+      <h2>Aplikasi Pengendali dan Edukasi</h2>
+      <p>Aplikasi terhubung langsung dengan alat dan menyediakan informasi real-time, laporan kebersihan laut, serta edukasi pentingnya tidak membuang sampah ke laut. Aplikasi juga memberi penghargaan digital bagi pengguna yang berkontribusi.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Laut Bersih Indonesia</p>
+  </footer>
+</body>
+</html>
